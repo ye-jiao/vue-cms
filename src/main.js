@@ -17,6 +17,7 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 // 设置请求的根路径
 Vue.http.options.root='http://www.liulongbin.top:3005';
+Vue.http.options.emulateJSON=true;
 // 导入mui的样式
 import './lib/mui/css/mui.css'
 import './lib/mui/css/icons-extra.css'
